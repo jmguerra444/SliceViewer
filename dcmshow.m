@@ -22,7 +22,7 @@ function varargout = dcmshow(varargin)
 
 % Edit the above text to modify the response to help dcmshow
 
-% Last Modified by GUIDE v2.5 12-Feb-2019 23:08:05
+% Last Modified by GUIDE v2.5 03-Mar-2019 00:34:52
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -269,3 +269,11 @@ function figure1_CloseRequestFcn(hObject, eventdata, handles)
 
 % Hint: delete(hObject) closes the figure
 delete(hObject);
+
+
+% --- Executes on button press in pushbutton36.
+function pushbutton36_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton36 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+web('https://github.com/jmguerra444/SliceViewer')
