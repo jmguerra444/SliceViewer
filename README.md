@@ -55,5 +55,6 @@ Clone repository and add to MATLAB path.
 ## License
 Feel free to use and change this software for any purpose.
 
+Any kind of feedback is gladly appreciated
 
 Jorge Mario Guerra 2019
