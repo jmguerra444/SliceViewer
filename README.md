@@ -16,10 +16,10 @@ dcmshow(A);            %launches UI
 
 The following functions are included:
 * Basic image functionalities: navigate through slices, zoom and get pixel values.
-* Measure distances in image
+* Measure distances in image.
 * Noise quantifiction: mean and standard deviation computation inside patch.
-* Change visualization window
-* Save statistics and images in .jpeg and dicom format
+* Change visualization window.
+* Save statistics and images in .jpeg and dicom format.
 * This tool was used for medical imaging applications, dicom reader function is also provided, small dicom free available sample for test is also provided provided. The syntax for dataset loading is:
 
 ``` matlab
@@ -35,7 +35,7 @@ A = rand(100,100,100);
 filtered_volume = filtertool(A);
 ```
 The following linear filters are available:
-* Binomial filter: Gaussinan filter approximation for fast smoothing operations (low and high pass)
+* Binomial filter: Gaussinan filter approximation for fast smoothing operations (low and high pass).
 * Bilateral filtering: more robust filtering operation that considers distance and intensity differeces for current pixel output value computation.
 
 
