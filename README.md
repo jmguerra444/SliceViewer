@@ -57,11 +57,10 @@ Slice Navigator python application, this is a naive addaptation from the matplot
 Check original example <a href="https://matplotlib.org/examples/pylab_examples/image_slices_viewer.html"> here </a>
 
 ## Usage
-1. Get <a href="dcmshow.py">python.py</a> file under python folder.
+1. Get <a href="https://github.com/jmguerra444/SliceViewer/blob/master/python/dcmshow.py">dcmshow.py</a> file under python folder.
 2. Function <code>dcmshow()</code> can be called as:
 
 ``` python
-
 from dcmshow import dcmshow
 from numpy import random
 
